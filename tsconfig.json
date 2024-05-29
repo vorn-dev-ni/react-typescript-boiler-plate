@@ -21,6 +21,8 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src",
+        "type.d.ts" // Add this line or adjust accordingly
+
   ]
 }

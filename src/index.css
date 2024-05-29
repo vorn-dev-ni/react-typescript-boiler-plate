@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .test {
+        cursor: url('./assets/images/myhammer.png'), auto;
+
+    }
+}
+
+@layer base {
+
+    body {
+        background-color: black;
+    }
+}
